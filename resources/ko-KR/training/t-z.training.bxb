@@ -1,0 +1,5 @@
+train (t-zfi9ulira9ln0fc9jm58sihca) {
+  utterance ("[g:UserRequest:prompt] (사과)[v:ProductName] (1)[v:Quantity:1]개")
+  plan (Y2BhkC7ISaxML8ovzUvRy00sKtELLU4tCkotLE0tLmFQQJd0Ks3MSUFWgaE9oCg/pTS5xC8xN5VBAl0ysDQxrySzpJKBmYGRgQlIMgBpEIQAEB8sCgA=)
+  last-modified (1575469765023)
+}

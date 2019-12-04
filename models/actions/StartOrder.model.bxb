@@ -1,0 +1,16 @@
+action (StartOrder) {
+  description (__DESCRIPTION__)
+  type (Search)
+  collect {
+    input (userRequest) {
+      type (UserRequest)
+      min (Required) max (One)
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+  }
+  output (Order)
+}

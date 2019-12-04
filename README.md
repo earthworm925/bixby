@@ -1,2 +1,1 @@
-# bixby
-Bixby study sample code
+# playground.mart

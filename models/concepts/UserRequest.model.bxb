@@ -1,0 +1,16 @@
+structure (UserRequest) {
+  description (사용자의 주문 요청 정보)
+  features {
+    transient
+  }
+  property (productName) {
+    type (ProductName)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (quantity) {
+    type (Quantity)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+}

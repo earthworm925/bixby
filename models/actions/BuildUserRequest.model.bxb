@@ -1,0 +1,32 @@
+action (BuildUserRequest) {
+  description (__DESCRIPTION__)
+  type (Constructor)
+  collect {
+    input (productName) {
+      type (ProductName)
+      min (Required) max (One)
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+    input (quantity) {
+      type (Quantity)
+      min (Optional) max (One)
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+  }
+  output (UserRequest) {
+    evaluate {
+      UserRequest {
+        productName : $expr(productName)
+        quantity : $expr(quantity)
+      }
+    }
+  }
+}

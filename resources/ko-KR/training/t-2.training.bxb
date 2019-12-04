@@ -1,0 +1,5 @@
+train (t-24wzhym8ojy5t5xrsr62uoix5) {
+  utterance ([g:StartOrder] 주문할게요)
+  plan (Y2BmEC3ISaxML8ovzUvRy00sKtHzL0pJLWKQQhcOLgGSEDlpdLnQ4tSioNTC0tTiEgYmBkYgZgCSjAwMMBoA)
+  last-modified (1575469714919)
+}

@@ -1,0 +1,13 @@
+capsule-info {
+  display-name ("참새 마트")
+  developer-name (Sparrow Mart)
+  icon-asset (icon.png)
+  description ("__DESCRIPTION__")
+  website-url (https://example.com/)
+  terms-url (https://example.com/terms-of-use/)
+
+  dispatch-name (참새 마트)
+  dispatch-aliases {
+    alias (참새마트)
+  }
+}

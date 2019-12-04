@@ -1,0 +1,3 @@
+integer (Quantity) {
+  description (물건 갯수)
+}

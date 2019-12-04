@@ -1,0 +1,8 @@
+structure (Order) {
+  description (주문 정보)
+  property (userRequests) {
+    type (UserRequest)
+    min (Optional) max (Many)
+    visibility (Private)
+  }
+}
