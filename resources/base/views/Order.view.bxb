@@ -1,0 +1,17 @@
+result-view {
+  match : Order (order)
+
+  message ("주문 결과에요")
+
+  render {
+    list-of (order.userRequests) {
+      where-each (item) {
+        layout-macro (UserRequest-Summary) {
+          param (userRequest) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+}

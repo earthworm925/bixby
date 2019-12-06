@@ -1,0 +1,30 @@
+layout-macro-def (UserRequest-Summary) {
+  params {
+    param (userRequest) {
+      type (UserRequest)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    cell-area {
+      slot2 {
+        if (exists(userRequest.quantity) && userRequest.quantity > 0) {
+          content {
+            order (PrimarySecondary)
+            primary ("#{value(userRequest.productName)} #{value(userRequest.quantity)}개")
+          }
+        } else {
+          content {
+            order (PrimarySecondary)
+            primary ("#{value(userRequest.productName)}")
+          }
+        }
+      }
+    }
+    // paragraph {
+    //   value ("#{value(order)}")
+    //   style (Title_L)
+    // }
+  }
+}

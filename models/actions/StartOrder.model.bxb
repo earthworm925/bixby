@@ -5,9 +5,9 @@ action (StartOrder) {
     input (userRequest) {
       type (UserRequest)
       min (Required) max (One)
-      default-select {
-        with-rule {
-          select-first
+      default-init {
+        intent {
+          goal : GetUserRequestCandidate
         }
       }
     }
