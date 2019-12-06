@@ -1,0 +1,5 @@
+input-view {
+  match : Quantity
+
+  message ("몇개 사시겠어요?")
+}

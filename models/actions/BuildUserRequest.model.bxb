@@ -11,9 +11,12 @@ action (BuildUserRequest) {
         }
       }
     }
+
+    // 디폴트 값을 설정해주고 싶다면 default-init을 써도 되고
+    // js 코드에서 값을 써줘도 됩니다. StartOrder.js 참고.
     input (quantity) {
       type (Quantity)
-      min (Optional) max (One)
+      min (Required) max (One)  
       default-select {
         with-rule {
           select-first
