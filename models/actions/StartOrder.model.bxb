@@ -5,11 +5,11 @@ action (StartOrder) {
     input (userRequest) {
       type (UserRequest)
       min (Required) max (One)
-      default-init {
-        intent {
-          goal : GetUserRequestCandidate
-        }
-      }
+      // default-init {
+      //   intent {
+      //     goal : GetUserRequestCandidate
+      //   }
+      // }
     }
   }
   output (Order)

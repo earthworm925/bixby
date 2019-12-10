@@ -1,10 +1,10 @@
 train (t-z7cbhca0bq9d2rkcoq8w2dpv7) {
-  utterance ("[g:UserRequest:prompt] (딸기)[v:ProductName] (2)[v:Quantity:2]개")
+  utterance ("[g:UserRequest:prompt] (딸기 우유)[v:ProductName] (2)[v:Quantity:2]개")
   plan (Y2BhkC7ISaxML8ovzUvRy00sKtELLU4tCkotLE0tLmFQQJd0Ks3MSUFWgaE9oCg/pTS5xC8xN5VBAl0ysDQxrySzpJKBmYGRgQlIMgBpEIQAEB8sCgA=)
-  last-modified (1575547656172)
+  last-modified (1575987020541)
 }
 train (t-zfi9ulira9ln0fc9jm58sihca) {
-  utterance ("[g:UserRequest:prompt] (사과)[v:ProductName] (1)[v:Quantity:1]개")
+  utterance ("[g:UserRequest:prompt] (커피 아이스크림)[v:ProductName] (1)[v:Quantity:1]개")
   plan (Y2BhkC7ISaxML8ovzUvRy00sKtELLU4tCkotLE0tLmFQQJd0Ks3MSUFWgaE9oCg/pTS5xC8xN5VBAl0ysDQxrySzpJKBmYGRgQlIMgBpEIQAEB8sCgA=)
-  last-modified (1575547661454)
+  last-modified (1575987023413)
 }
