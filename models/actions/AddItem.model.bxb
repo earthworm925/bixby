@@ -1,0 +1,61 @@
+action (AddItem) {
+  description (__DESCRIPTION__)
+  type (Search)
+  collect {
+    input (order) {
+      type (Order)
+      min(Required) max(One)
+      default-init {
+        intent {
+          goal : CreateOrder
+        }
+      }
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+    input (userRequest) {
+      type (UserRequest)
+      min (Required) max (One)
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+  }
+  output (Order) {
+    throws {
+      error (GoShowCart) {
+        property (resultOrder) {
+          type (Order)
+          min (Required) max (One)
+        }
+        on-catch {
+          replan {
+            intent {
+              goal : ShowCart
+              value : $expr(resultOrder)
+            }
+          }
+        }
+      }
+      error (GoShowMenu) {
+        property (resultOrder) {
+          type (Order)
+          min (Required) max (One)
+        }
+        on-catch {
+          replan {
+            intent {
+              goal : ShowMenu
+              value : $expr(resultOrder)
+            }
+          }
+        }
+      }
+    }
+  }
+}

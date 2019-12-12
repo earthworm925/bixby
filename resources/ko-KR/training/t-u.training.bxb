@@ -1,0 +1,10 @@
+train (t-u7r1cq8t1k8pgwe22rigefccl) {
+  utterance ("[g:AddItem:continue:*] (커피 우유)[v:ProductName] 추가해")
+  plan (Y2BnEC3ISaxML8ovzUvRy00sKtHzL0pJLWIQRxd2TEnxLEnNxaVeGl04tDi1KCi1sDS1uIRBAV3SqTQzJwVZBYb2gKL8lNLkEr/E3FQGCXTJwNLEvJLMkkoGNgZGBiYGZgYWBlYgmwHIYwTzWIA0A5gPAUxAFisDAwA=)
+  last-modified (1576165683768)
+}
+train (t-ug2voz1ca6ncow11meqe9u9e1) {
+  utterance ([g:ShowMenu:continue:*] 메뉴 보여줘)
+  plan (Y2BmEC3ISaxML8ovzUvRy00sKtHzL0pJLWKQQBcOzsgv903NK8WlgYmBEYgZgCQjAwOMBgA=)
+  last-modified (1576164817162)
+}

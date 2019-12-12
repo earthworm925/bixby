@@ -1,0 +1,32 @@
+result-view {
+  match : Order (order) {
+    from-output : ShowMenu (action)
+  }
+
+  message {
+    if (exists(action.order.errorMessage)) {
+      template ("#{value(action.order.errorMessage)}")
+    } else {
+      template ("메뉴 입니다")
+    }
+  }
+
+
+  render {
+    list-of (order.menuItems) {
+      where-each (item) {
+        layout-macro (MenuItem-Summary) {
+          param (menuItem) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("카트 보여줘")
+    }
+  }
+}

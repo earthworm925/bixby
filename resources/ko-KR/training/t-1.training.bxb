@@ -1,0 +1,5 @@
+train (t-1omd5n6nzf8dn2oxeyycsnd3w) {
+  utterance ([g:ShowCart:continue:*] 장바구니 보자)
+  plan (Y2BmEC3ISaxML8ovzUvRy00sKtHzL0pJLWKQQBcOzsgvdwYycGlgYmAEYgYgycjAAKMB)
+  last-modified (1576164791905)
+}

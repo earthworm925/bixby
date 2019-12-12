@@ -1,0 +1,19 @@
+layout-macro-def (MenuItem-Summary) {
+  params {
+    param (menuItem) {
+      type (MenuItem)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    cell-area {
+      slot2 {
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(menuItem.productName)}")
+        }
+      }
+    }
+  }
+}

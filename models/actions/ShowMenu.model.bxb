@@ -1,0 +1,21 @@
+action (ShowMenu) {
+  description (__DESCRIPTION__)
+  type (Search)
+  collect {
+    input (order) {
+      type (Order)
+      min(Required) max(One)
+      default-init {
+        intent {
+          goal : CreateOrder
+        }
+      }
+      default-select {
+        with-rule {
+          select-first
+        }
+      }
+    }
+  }
+  output (Order)
+}

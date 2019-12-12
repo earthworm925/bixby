@@ -1,0 +1,5 @@
+train (t-0nmd73mqeam73qgtm8xm3loii) {
+  utterance ("[g:AddItem:continue:*] (초코 아이스크림)[v:ProductName] (하나)[v:Quantity:1] 담아줘")
+  plan (Y2BnEC3ISaxML8ovzUvRy00sKtHzL0pJLWIQRxd2TEnxLEnNxaVeGl04tDi1KCi1sDS1uIRBAV3SqTQzJwVZBYb2gKL8lNLkEr/E3FQGCXTJwNLEvJLMkkoGNgZGBiYGZgYWBlYgmwHIYwTzWIA0A5gPAcxAFlgFAA==)
+  last-modified (1576165616947)
+}

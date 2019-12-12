@@ -22,9 +22,5 @@ layout-macro-def (UserRequest-Summary) {
         }
       }
     }
-    // paragraph {
-    //   value ("#{value(order)}")
-    //   style (Title_L)
-    // }
   }
 }

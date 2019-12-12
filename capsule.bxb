@@ -17,4 +17,9 @@ capsule {
   store-countries {
     all
   }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+  }
 }

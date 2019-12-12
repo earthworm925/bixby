@@ -1,0 +1,6 @@
+action (CreateOrder) {
+  description (__DESCRIPTION__)
+  type (Constructor)
+
+  output (Order)
+}

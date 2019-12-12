@@ -1,0 +1,26 @@
+layout-macro-def (OrderedItem-Summary) {
+  params {
+    param (orderedItem) {
+      type (OrderedItem)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    cell-area {
+      slot2 {
+        if (exists(orderedItem.quantity) && orderedItem.quantity > 0) {
+          content {
+            order (PrimarySecondary)
+            primary ("#{value(orderedItem.productName)} #{value(orderedItem.quantity)}개")
+          }
+        } else {
+          content {
+            order (PrimarySecondary)
+            primary ("#{value(orderedItem.productName)}")
+          }
+        }
+      }
+    }
+  }
+}

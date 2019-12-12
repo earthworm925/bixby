@@ -1,13 +1,21 @@
 endpoints {
   action-endpoints {
 
-    action-endpoint (StartOrder) {
-      accepted-inputs (userRequest)
-      local-endpoint (StartOrder.js)
+    action-endpoint (ShowMenu) {
+      accepted-inputs (order)
+      local-endpoint (ShowMenu.js)
     }
-    action-endpoint (GetUserRequestCandidate) {
+    action-endpoint (ShowCart) {
+      accepted-inputs (order)
+      local-endpoint (ShowCart.js)
+    }
+    action-endpoint (AddItem) {
+      accepted-inputs (order, userRequest)
+      local-endpoint (AddItem.js)
+    }
+    action-endpoint (CreateOrder) {
       accepted-inputs ()
-      local-endpoint (GetUserRequestCandidate.js)
+      local-endpoint (CreateOrder.js)
     }
   }
 }

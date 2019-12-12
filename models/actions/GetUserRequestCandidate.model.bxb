@@ -1,5 +1,0 @@
-action (GetUserRequestCandidate) {
-  description (__DESCRIPTION__)
-  type (Search)
-  output (UserRequest)
-}

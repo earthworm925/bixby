@@ -1,0 +1,5 @@
+train (t-71gn9qgq0281lam7ta07lkog5) {
+  utterance ("[g:AddItem:continue:*] (딸기 우유)[v:ProductName] (1)[v:Quantity:1]개 추가")
+  plan (Y2BnEC3ISaxML8ovzUvRy00sKtHzL0pJLWIQRxd2TEnxLEnNxaVeGl04tDi1KCi1sDS1uIRBAV3SqTQzJwVZBYb2gKL8lNLkEr/E3FQGCXTJwNLEvJLMkkoGNgZGBiYGZgYWBlYgmwHIYwTzWIA0A5gPAcxAFlgFAA==)
+  last-modified (1576165559359)
+}

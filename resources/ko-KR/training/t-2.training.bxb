@@ -1,5 +1,10 @@
 train (t-24wzhym8ojy5t5xrsr62uoix5) {
-  utterance ([g:StartOrder] 주문할게요)
-  plan (Y2BmEC3ISaxML8ovzUvRy00sKtHzL0pJLWKQQhcOLgGSEDlpdLnQ4tSioNTC0tTiEgYmBkYgZgCSjAwMMBoA)
-  last-modified (1575469714919)
+  utterance ([g:ShowMenu] 주문할게요)
+  plan (Y2BmEC3ISaxML8ovzUvRy00sKtHzL0pJLWKQQBcOzsgv903NK8WlgYmBEYgZgCQjAwOMBgA=)
+  last-modified (1576164029068)
+}
+train (t-2919va86uax9yg5carxwbuwgs) {
+  utterance ([g:ShowCart:continue:*] 카트 보여줘)
+  plan (Y2BmEC3ISaxML8ovzUvRy00sKtHzL0pJLWKQQBcOzsgvdwYycGlgYmAEYgYgycjAAKMB)
+  last-modified (1576164804513)
 }

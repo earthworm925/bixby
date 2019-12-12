@@ -1,0 +1,3 @@
+structure (OrderedItem) {
+  extends (UserRequest)
+}

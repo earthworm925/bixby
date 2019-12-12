@@ -1,0 +1,4 @@
+structure (MenuItem) {
+  extends (UserRequest)
+}
+

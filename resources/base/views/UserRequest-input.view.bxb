@@ -1,19 +1,19 @@
-input-view {
-  match : UserRequest (userRequest) {
-    to-input : StartOrder (action)
-  }
+// input-view {
+//   match : UserRequest (userRequest) {
+//     to-input : StartOrder (action)
+//   }
 
-  message ("무엇을 사시겠어요?")
+//   message ("무엇을 사시겠어요?")
 
-  render {
-    selection-of (userRequest) {
-      where-each (item) {
-        layout-macro (UserRequest-Summary) {
-          param (userRequest) {
-            expression (item)
-          }
-        }
-      }
-    }
-  }
-}
+//   render {
+//     selection-of (userRequest) {
+//       where-each (item) {
+//         layout-macro (UserRequest-Summary) {
+//           param (userRequest) {
+//             expression (item)
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

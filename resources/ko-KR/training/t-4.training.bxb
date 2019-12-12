@@ -1,0 +1,5 @@
+train (t-4vgixnxcr6o47h8hymhn7e8p3) {
+  utterance ("[g:AddItem:continue:*] (커피 사탕)[v:ProductName] (2)[v:Quantity:2]개 추가해줘")
+  plan (Y2BnEC3ISaxML8ovzUvRy00sKtHzL0pJLWIQRxd2TEnxLEnNxaVeGl04tDi1KCi1sDS1uIRBAV3SqTQzJwVZBYb2gKL8lNLkEr/E3FQGCXTJwNLEvJLMkkoGNgZGBiYGZgYWBlYgmwHIYwTzWIA0A5gPAcxAFlgFAA==)
+  last-modified (1576165626175)
+}

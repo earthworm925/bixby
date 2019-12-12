@@ -1,0 +1,31 @@
+result-view {
+  match : Order (order) {
+    from-output : ShowCart (action)
+  }
+
+  message {
+    if (exists(action.order.errorMessage)) {
+      template ("#{value(action.order.errorMessage)}")
+    } else {
+      template ("카트 입니다")
+    }
+  }
+  
+  render {
+    list-of (order.orderedItems) {
+      where-each (item) {
+        layout-macro (OrderedItem-Summary) {
+          param (orderedItem) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+
+  conversation-drivers {
+    conversation-driver {
+      template ("메뉴 보여줘")
+    }
+  }
+}
